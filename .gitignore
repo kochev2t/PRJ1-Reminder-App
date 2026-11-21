@@ -1,0 +1,67 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# --- Виртуальные окружения ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Локальная база напоминаний (данные пользователя) ---
+reminders.db
+reminders.db-journal
+reminders.db-wal
+reminders.db-shm
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# --- Кэши и тесты ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# --- Сборка / установка ---
+build/
+dist/
+*.egg-info/
+*.spec
+
+# --- Переменные окружения и секреты ---
+.env
+.env.*
+!.env.example
+
+# --- Логи ---
+*.log
+logs/
+
+# --- IDE и редакторы ---
+.idea/
+.vscode/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# --- ОС (Windows / macOS / Linux) ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.swp
+*~
